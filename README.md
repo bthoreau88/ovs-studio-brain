@@ -15,7 +15,7 @@ The app is dependency-free and stores data in browser `localStorage`.
 
 ## Hosting
 
-The included GitHub Pages workflow publishes the static app on every push to `main`. Because the app uses hash routes and browser storage, it works directly from a Pages subdirectory without server-side routing.
+GitHub Pages publishes the repository root from `main`. Because the app uses hash routes and browser storage, it works directly from a Pages subdirectory without server-side routing.
 
 ## Implemented
 
