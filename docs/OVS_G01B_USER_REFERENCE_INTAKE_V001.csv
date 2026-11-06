@@ -1,0 +1,11 @@
+reference_file,observed_reference_type,registry_ids,classification,production_interpretation,qc_guardrail
+IMG_7933.jpeg,Subject,TR-B02,Existing,"Identity/subject anchor: same subject in time and place changes; matching position/scale is editorial, not facial replacement.",Use crop-safe eye-line and subject positioning; no forced same-person claim.
+IMG_7932.jpeg,Action / movement,TR-B03; TR-O02,Existing,Motion passes across cut; multi-shot relay extends the idea beyond two shots.,"Record direction, acceleration, action phase and blur at each boundary."
+IMG_7931.jpeg,Audio,TR-D04; TR-D01; TR-D02,Existing,"Acoustic match, sonic bridge or timbral transformation can work without visual resemblance.",Continuity must not falsely imply a character caused a sound.
+IMG_7930.jpeg,Idea / conceptual,TR-B13; TR-O11,Existing,"Cuts create an association, argument or emotional comparison.","Require viewer-legible significance, not a decorative metaphor."
+IMG_7929.jpeg,Graphic / shape,TR-B01; TR-O01,Existing,"Match silhouette, frame position, geometry, horizon or direction.",Use end/start overlay plus shot-axis and lens QC.
+IMG_7927.jpeg,Collage / mixed media,TR-P01; TR-P03; TR-P08,New family,Multiple independently sourced images or materials share one composited frame.,"Maintain layer provenance, mask edges, rights and stylistic intention."
+IMG_7926.jpeg,Cross dissolve,TR-E01,Existing,"Temporal overlap may express duration, thought or tone shift.",Prevent ghost faces and unintended causality during overlaps.
+IMG_7924.jpeg,Split screen,TR-H09; TR-P04; TR-P05; TR-P07,Expanded,Panels allow parallel action or change in visual hierarchy; not a traditional single-frame transition.,Keep actor faces legible in 9:16 and 16:9 outputs.
+IMG_7925.jpeg,Morph,TR-N08; TR-I10,Existing: tighter gate,"A moving shape, texture or scene is transformed continuously; neural face morph is separately restricted.",Lock real start/end plates; do not blend canonical character identity by default.
+IMG_7923.jpeg,Strobes & inversions,TR-G04; TR-G05,Existing: safety gate,"Flash, brief brightness change or tonal inversion creates a perceptual interruption.",Avoid rapid full-frame flashing and saturated-red flashes; test final-sized render.
