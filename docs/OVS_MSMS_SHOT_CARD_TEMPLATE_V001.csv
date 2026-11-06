@@ -1,0 +1,7 @@
+"sequence_id","shot_id","source_asset","cut_in_TC","cut_out_TC","primary_incoming_anchor","primary_outgoing_anchor","secondary_anchor","focus_xy_norm","motion_vector_phase","camera_lens_fps","sound_or_beat_cue","meaning_change","identity_wardrobe_light_lock","allowed_post_adjustment","qc_status","reviewer_notes"
+"MSMS-SEQ-001","S01","","","","","","","","","","","","","","",""
+"MSMS-SEQ-001","S02","","","","","","","","","","","","","","",""
+"MSMS-SEQ-001","S03","","","","","","","","","","","","","","",""
+"MSMS-SEQ-001","S04","","","","","","","","","","","","","","",""
+"MSMS-SEQ-001","S05","","","","","","","","","","","","","","",""
+"MSMS-SEQ-001","S06","","","","","","","","","","","","","","",""
