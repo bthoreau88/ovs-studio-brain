@@ -1,0 +1,1932 @@
+{
+  "standard": "OVS-EDIT-TRANSITION-G01",
+  "version": "V002",
+  "date": "2026-11-05",
+  "status": "STUDIO POLICY - DOCUMENTED / HUMAN PROOF REQUIRED FOR ASSETS",
+  "catalog_count": 192,
+  "families": 15,
+  "entries": [
+    {
+      "id": "TR-A01",
+      "family": "A. Continuity and invisible edits",
+      "name": "Straight cut",
+      "mechanism": "Immediate image replacement without blending",
+      "creative_use": "Default for all storytelling; pace and emotional punctuation",
+      "failure_check": "A gratuitous effect would distract",
+      "method": "NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A02",
+      "family": "A. Continuity and invisible edits",
+      "name": "Cut on action",
+      "mechanism": "Join an action across two angles at its most readable motion point",
+      "creative_use": "Natural passage between viewpoints",
+      "failure_check": "Direction and limb state must agree",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A03",
+      "family": "A. Continuity and invisible edits",
+      "name": "Eyeline match",
+      "mechanism": "Cut from gaze to spatially coherent object or person",
+      "creative_use": "Point of view and audience attention",
+      "failure_check": "Axis and geography errors",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A04",
+      "family": "A. Continuity and invisible edits",
+      "name": "Shot/reverse-shot",
+      "mechanism": "Alternate viewpoints across established conversation axis",
+      "creative_use": "Human performance and relational stakes",
+      "failure_check": "Overcoverage can erase tension",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A05",
+      "family": "A. Continuity and invisible edits",
+      "name": "Reaction cut",
+      "mechanism": "Leave action to reveal another person's specific response",
+      "creative_use": "Emotional consequence",
+      "failure_check": "Unmotivated reaction misattributes feelings",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A06",
+      "family": "A. Continuity and invisible edits",
+      "name": "Cut-in",
+      "mechanism": "Move to a close detail contained in the parent action",
+      "creative_use": "Emphasize an object or decision",
+      "failure_check": "False prop continuity",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A07",
+      "family": "A. Continuity and invisible edits",
+      "name": "Cutaway",
+      "mechanism": "Temporary detail or parallel view conceals omitted time",
+      "creative_use": "Compress dialogue or action",
+      "failure_check": "Cutaway has no story reason",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A08",
+      "family": "A. Continuity and invisible edits",
+      "name": "Invisible dark cut",
+      "mechanism": "Cut across full-frame darkness or silhouette",
+      "creative_use": "Apparent unbroken movement",
+      "failure_check": "Black levels and grain mismatch",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A09",
+      "family": "A. Continuity and invisible edits",
+      "name": "Foreground occlusion cut",
+      "mechanism": "Use a passing body or object to conceal the edit",
+      "creative_use": "Unbroken spatial travel",
+      "failure_check": "Occluder speed and shape mismatch",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A10",
+      "family": "A. Continuity and invisible edits",
+      "name": "Motion-blur hidden cut",
+      "mechanism": "Place edit during high blur at similar flow direction",
+      "creative_use": "Continuous energy across spaces",
+      "failure_check": "Optical-flow artifacts if over-smoothed",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A11",
+      "family": "A. Continuity and invisible edits",
+      "name": "Composition hold / delayed cut",
+      "mechanism": "Hold a frame until the dramatic information changes",
+      "creative_use": "Tension, observation and unease",
+      "failure_check": "Holding without new information feels slack",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A12",
+      "family": "A. Continuity and invisible edits",
+      "name": "Cut after movement",
+      "mechanism": "Wait for action completion rather than cut on impact",
+      "creative_use": "Emphasize aftermath and accountability",
+      "failure_check": "Missed emotional reaction",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A13",
+      "family": "A. Continuity and invisible edits",
+      "name": "Insert-and-return",
+      "mechanism": "Cut to an insert then return on changed context",
+      "creative_use": "Story detail without a full scene change",
+      "failure_check": "Audience loses positional anchor",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-A14",
+      "family": "A. Continuity and invisible edits",
+      "name": "Reverse angle inversion",
+      "mechanism": "Deliberately swap axis after a clear spatial reset",
+      "creative_use": "Alienation or moral reversal",
+      "failure_check": "Accidental 180-degree violation",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B01",
+      "family": "B. Match-cut grammar",
+      "name": "Graphic match",
+      "mechanism": "Align shapes or dominant composition between shots",
+      "creative_use": "Elegant association across locations",
+      "failure_check": "Looks ornamental when meanings do not connect",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B02",
+      "family": "B. Match-cut grammar",
+      "name": "Subject match",
+      "mechanism": "Align subject types, poses, profiles or silhouettes",
+      "creative_use": "Connect identity, status or roles",
+      "failure_check": "Identity confusion unless intentional",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B03",
+      "family": "B. Match-cut grammar",
+      "name": "Action match",
+      "mechanism": "Continue a specific movement through the cut",
+      "creative_use": "Carry momentum across time and space",
+      "failure_check": "Motion phase mismatch",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B04",
+      "family": "B. Match-cut grammar",
+      "name": "Direction match",
+      "mechanism": "Preserve consistent movement vectors across shots",
+      "creative_use": "Uninterrupted pursuit or travel",
+      "failure_check": "Reverse vector reads as bounce",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B05",
+      "family": "B. Match-cut grammar",
+      "name": "Speed match",
+      "mechanism": "Cut between objects sharing apparent screen velocity",
+      "creative_use": "Build kinetic rhyme",
+      "failure_check": "Mismatched shutter/blur",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B06",
+      "family": "B. Match-cut grammar",
+      "name": "Scale match",
+      "mechanism": "Keep a focal object the same screen size across shots",
+      "creative_use": "Conceal change of location or object",
+      "failure_check": "False scale cues break immersion",
+      "method": "Previs+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B07",
+      "family": "B. Match-cut grammar",
+      "name": "Color match",
+      "mechanism": "Connect similar chromatic focal regions",
+      "creative_use": "Visual rhyme and music sections",
+      "failure_check": "Color as sole reason often feels thin",
+      "method": "Grade+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B08",
+      "family": "B. Match-cut grammar",
+      "name": "Luminance match",
+      "mechanism": "Connect highlight/shadow distribution",
+      "creative_use": "Smooth tonal movement",
+      "failure_check": "White/black clipping",
+      "method": "Grade+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B09",
+      "family": "B. Match-cut grammar",
+      "name": "Texture match",
+      "mechanism": "Align grain, weave, foam, fabric or surface patterns",
+      "creative_use": "Tactile associative transition",
+      "failure_check": "VFX smoothness conflicts with physical texture",
+      "method": "Capture+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B10",
+      "family": "B. Match-cut grammar",
+      "name": "Eye-position match",
+      "mechanism": "Maintain eye coordinates or eye-line direction",
+      "creative_use": "Hold attention through character cuts",
+      "failure_check": "Unwanted facial identity blend",
+      "method": "NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B11",
+      "family": "B. Match-cut grammar",
+      "name": "Object-function match",
+      "mechanism": "Different objects perform the same physical task",
+      "creative_use": "Conceptual connection without visual sameness",
+      "failure_check": "Metaphor too obvious",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B12",
+      "family": "B. Match-cut grammar",
+      "name": "Cause-and-effect match",
+      "mechanism": "Cut from action to its distant consequence",
+      "creative_use": "Story compression",
+      "failure_check": "Implies causal link not in script",
+      "method": "Script+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B13",
+      "family": "B. Match-cut grammar",
+      "name": "Conceptual / intellectual match",
+      "mechanism": "Juxtapose unlike images that share an idea",
+      "creative_use": "Theme or irony",
+      "failure_check": "Vague symbolism",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B14",
+      "family": "B. Match-cut grammar",
+      "name": "Sound match",
+      "mechanism": "Join matching sound signatures over different sources",
+      "creative_use": "Associate locations and behaviors",
+      "failure_check": "Frequency/phase mismatch",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B15",
+      "family": "B. Match-cut grammar",
+      "name": "Gesture / behavior rhyme",
+      "mechanism": "Match an actor's posture, hesitation or habitual gesture",
+      "creative_use": "Character mirroring, imitation or contrast",
+      "failure_check": "May imply supernatural mechanic accidentally",
+      "method": "Performance+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-B16",
+      "family": "B. Match-cut grammar",
+      "name": "Negative-space match",
+      "mechanism": "Connect vacant areas of composition across two shots",
+      "creative_use": "Isolation, exclusion, absence",
+      "failure_check": "Subject enters wrong side of frame",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C01",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Smash cut",
+      "mechanism": "Abrupt, high-contrast change in tone or intensity",
+      "creative_use": "Shock, comedy or irreversible decision",
+      "failure_check": "Overused shocks lose force",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C02",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Jump cut",
+      "mechanism": "Remove intermediate action within near-matched framing",
+      "creative_use": "Compressed time, agitation or repetition",
+      "failure_check": "Accidental continuity error look",
+      "method": "NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C03",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Elliptical cut",
+      "mechanism": "Omit an expected narrative interval",
+      "creative_use": "Trust viewer inference and increase pace",
+      "failure_check": "Causality becomes illegible",
+      "method": "Script+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C04",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Time-jump match",
+      "mechanism": "Match composition across different days or years",
+      "creative_use": "Make a passage of time immediate",
+      "failure_check": "Wardrobe/aging authority drift",
+      "method": "Storyboard+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C05",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Flash-forward cut",
+      "mechanism": "Briefly show a later known or hypothetical event",
+      "creative_use": "Anticipation or dread",
+      "failure_check": "Misleading chronology without grammar",
+      "method": "Script+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C06",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Flashback bridge",
+      "mechanism": "Transition to a prior event with an earned perceptual link",
+      "creative_use": "Specific memory and revised understanding",
+      "failure_check": "Cliche flashback signals",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C07",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Crosscutting",
+      "mechanism": "Alternate actions in separate locations",
+      "creative_use": "Parallel stakes or convergence",
+      "failure_check": "False simultaneity",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C08",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Parallel montage",
+      "mechanism": "Interleave separate events with thematic relation",
+      "creative_use": "Contrast people or institutions",
+      "failure_check": "Confuse theme with chronology",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C09",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Associative montage",
+      "mechanism": "Link images by evolving idea rather than continuity",
+      "creative_use": "Visual essay or experimental sequence",
+      "failure_check": "Narrative purpose dissolves",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C10",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Metric montage",
+      "mechanism": "Organize cut lengths by a measurable progression",
+      "creative_use": "Build acceleration or ritual",
+      "failure_check": "Mechanical rhythm feels unmotivated",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C11",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Rhythmic montage",
+      "mechanism": "Edit to movement patterns inside shots",
+      "creative_use": "Dance, violence, group movement",
+      "failure_check": "Only chasing a beat",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C12",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Tonal montage",
+      "mechanism": "Edit on emotional qualities across images",
+      "creative_use": "Change psychological register",
+      "failure_check": "Flat emotional arc",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C13",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Overtonal montage",
+      "mechanism": "Layer metric, rhythmic and tonal tensions",
+      "creative_use": "Intense sequence climax",
+      "failure_check": "Sensory overload",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C14",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Intellectual montage",
+      "mechanism": "Make a new argument by image collision",
+      "creative_use": "Political or philosophical metaphor",
+      "failure_check": "Forced symbolism",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-C15",
+      "family": "C. Structural, temporal, and spatial edits",
+      "name": "Split chronology",
+      "mechanism": "Interlace stages of one event nonlinearly",
+      "creative_use": "Subjective recollection",
+      "failure_check": "Time relationships unreadable",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D01",
+      "family": "D. Audio-led transitions",
+      "name": "J-cut / audio pre-lap",
+      "mechanism": "Bring next shot or scene sound in before the image",
+      "creative_use": "Anticipation and narrative bridge",
+      "failure_check": "Reveals location too early",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D02",
+      "family": "D. Audio-led transitions",
+      "name": "L-cut / audio post-lap",
+      "mechanism": "Let preceding shot's sound outlive its image",
+      "creative_use": "Emotional residue and scene linkage",
+      "failure_check": "Tail masks needed new information",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D03",
+      "family": "D. Audio-led transitions",
+      "name": "Sound bridge",
+      "mechanism": "Carry a common ambience, effect or music bed over the cut",
+      "creative_use": "Smooth spatial or emotional shift",
+      "failure_check": "Implausible space if untreated",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D04",
+      "family": "D. Audio-led transitions",
+      "name": "Audio match cut",
+      "mechanism": "Align related sound events from distinct environments",
+      "creative_use": "Connect actions or ideas",
+      "failure_check": "Transient and timbral mismatch",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D05",
+      "family": "D. Audio-led transitions",
+      "name": "Acoustic morph",
+      "mechanism": "Gradually transform a sound's spectrum or envelope into another",
+      "creative_use": "Dream, disorientation, cross-world travel",
+      "failure_check": "Artificial resonances",
+      "method": "Sound design",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D06",
+      "family": "D. Audio-led transitions",
+      "name": "Reverb-tail bridge",
+      "mechanism": "Carry the decay of a voice or struck object into next image",
+      "creative_use": "Psychological aftershock",
+      "failure_check": "Unnatural room acoustics without intent",
+      "method": "Sound design",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D07",
+      "family": "D. Audio-led transitions",
+      "name": "Hard silence cut",
+      "mechanism": "Remove ambience/music exactly at the image change",
+      "creative_use": "Shock, shame, grief or attention",
+      "failure_check": "Codec clicks and dead-space confusion",
+      "method": "Sound+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D08",
+      "family": "D. Audio-led transitions",
+      "name": "Ambience swap",
+      "mechanism": "Change environmental bed ahead of or after picture",
+      "creative_use": "Signal a new location before reveal",
+      "failure_check": "Brittle ambience jump",
+      "method": "Sound design",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D09",
+      "family": "D. Audio-led transitions",
+      "name": "Dialogue bridge",
+      "mechanism": "Complete one conversation's line over a new setting",
+      "creative_use": "Reframe meaning",
+      "failure_check": "Implies direct dialog at wrong place",
+      "method": "Editorial+Sound",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D10",
+      "family": "D. Audio-led transitions",
+      "name": "Musical downbeat cut",
+      "mechanism": "Cut exactly on a strong musical attack",
+      "creative_use": "Energy or section change",
+      "failure_check": "Predictability after repeated use",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D11",
+      "family": "D. Audio-led transitions",
+      "name": "Anticipation cut",
+      "mechanism": "Change picture before a predicted drum or lyric event",
+      "creative_use": "Build expectation",
+      "failure_check": "Rhythm feels accidentally early",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D12",
+      "family": "D. Audio-led transitions",
+      "name": "Afterbeat cut",
+      "mechanism": "Delay picture past rhythmic emphasis",
+      "creative_use": "Suspense, dislocation, human feeling",
+      "failure_check": "Reads late without creative logic",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-D13",
+      "family": "D. Audio-led transitions",
+      "name": "Sonic perspective shift",
+      "mechanism": "Transition diegetic sound from internal to external viewpoint",
+      "creative_use": "Alter relationship to character or space",
+      "failure_check": "Mix perspective not established",
+      "method": "Sound design",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-E01",
+      "family": "E. Optical and traditional transitions",
+      "name": "Cross dissolve",
+      "mechanism": "Blend adjacent shots through opacity",
+      "creative_use": "Time drift or thematic overlay",
+      "failure_check": "Ghosting creates accidental doubled faces",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E02",
+      "family": "E. Optical and traditional transitions",
+      "name": "Film dissolve (linear light)",
+      "mechanism": "Blend exposure response in linear-light space",
+      "creative_use": "Film-like exposure blend",
+      "failure_check": "Incorrect working color management",
+      "method": "NLE+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E03",
+      "family": "E. Optical and traditional transitions",
+      "name": "Additive dissolve",
+      "mechanism": "Add bright regions across frames while mixing",
+      "creative_use": "Flare or high-energy passage",
+      "failure_check": "Highlights blow out",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E04",
+      "family": "E. Optical and traditional transitions",
+      "name": "Non-additive dissolve",
+      "mechanism": "Blend without additive brightening bias",
+      "creative_use": "Neutral scene blend",
+      "failure_check": "Low-contrast muddy midpoint",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E05",
+      "family": "E. Optical and traditional transitions",
+      "name": "Fade to black",
+      "mechanism": "Gradually diminish picture into black",
+      "creative_use": "Act ending, closure, withheld revelation",
+      "failure_check": "Cliche if used at every scene",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E06",
+      "family": "E. Optical and traditional transitions",
+      "name": "Fade to white",
+      "mechanism": "Gradually increase to white",
+      "creative_use": "Overexposure, dream or reset",
+      "failure_check": "Flash sensitivity, clipping",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E07",
+      "family": "E. Optical and traditional transitions",
+      "name": "Dip to color",
+      "mechanism": "Pass through a selected solid color",
+      "creative_use": "Section punctuation or formal chapters",
+      "failure_check": "Arbitrary brand-color gimmick",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E08",
+      "family": "E. Optical and traditional transitions",
+      "name": "Linear wipe",
+      "mechanism": "One image reveals another along moving boundary",
+      "creative_use": "Geographical or stylistic shift",
+      "failure_check": "Default preset looks broadcast-like",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E09",
+      "family": "E. Optical and traditional transitions",
+      "name": "Diagonal wipe",
+      "mechanism": "Slanted boundary reveal across frames",
+      "creative_use": "Formal cinematic punctuation",
+      "failure_check": "Unmotivated retro feel",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E10",
+      "family": "E. Optical and traditional transitions",
+      "name": "Iris in/out",
+      "mechanism": "Circle opens or closes visual field",
+      "creative_use": "Subjective selection or historical form",
+      "failure_check": "Playful symbolism unintended",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E11",
+      "family": "E. Optical and traditional transitions",
+      "name": "Clock / radial wipe",
+      "mechanism": "Pivot a radial wipe around image center",
+      "creative_use": "Measured or clock-like progression",
+      "failure_check": "Too literal time metaphor",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E12",
+      "family": "E. Optical and traditional transitions",
+      "name": "Venetian-blind wipe",
+      "mechanism": "Repeated strips replace image",
+      "creative_use": "Graphic retro or media motif",
+      "failure_check": "Moiré/flicker",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-E13",
+      "family": "E. Optical and traditional transitions",
+      "name": "Page turn / peel",
+      "mechanism": "Peel image as physical page",
+      "creative_use": "Documentary or visual essay chapter",
+      "failure_check": "Unrealistic perspective",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F01",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Whip pan",
+      "mechanism": "End and begin adjacent shots with matched fast pan",
+      "creative_use": "Energetic relocation",
+      "failure_check": "Blur vector mismatch",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F02",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Whip tilt",
+      "mechanism": "Use fast upward/downward camera tilt",
+      "creative_use": "Vertical relocation or scale shift",
+      "failure_check": "Horizon snaps",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F03",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Swish zoom",
+      "mechanism": "Fast focal zoom bridges shots",
+      "creative_use": "Subject emphasis or kinetic music",
+      "failure_check": "Digital zoom feels synthetic",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F04",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Body/lens cover",
+      "mechanism": "Hand, hat, coat or moving person briefly covers lens",
+      "creative_use": "Hidden location switch",
+      "failure_check": "Occlusion edges don't align",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F05",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Door-frame pass",
+      "mechanism": "Camera passes a doorway edge into another set",
+      "creative_use": "World change, continuous move",
+      "failure_check": "Perspective and jamb geometry mismatch",
+      "method": "Capture+Previs",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F06",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Wall / pillar wipe",
+      "mechanism": "Architecture crosses the full lens area",
+      "creative_use": "Clean hidden transition",
+      "failure_check": "Parallax mismatch",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F07",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Floor-to-floor tilt",
+      "mechanism": "Tilt to uniform floor and reverse into another space",
+      "creative_use": "Rhythmic location change",
+      "failure_check": "Different perspective cues",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F08",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Sky-to-sky tilt",
+      "mechanism": "Use featureless sky as neutral bridge",
+      "creative_use": "Time/location shift",
+      "failure_check": "Sun and sky grade mismatch",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F09",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Rack-focus blur bridge",
+      "mechanism": "Defocus outgoing image and sharpen the next",
+      "creative_use": "Shift psychological attention",
+      "failure_check": "Temporal blur looks like defect",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F10",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Foreground pass-through",
+      "mechanism": "Let moving object pass extremely close to lens",
+      "creative_use": "Tactile hidden cut",
+      "failure_check": "Object edges not consistent",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F11",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Prism/refraction pass",
+      "mechanism": "Sweep glass or prism across field to conceal next shot",
+      "creative_use": "Altered perception and analog smear",
+      "failure_check": "Plastic/artificial flare",
+      "method": "Practical+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F12",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Mirror reveal",
+      "mechanism": "Track into a reflection then open on new setting",
+      "creative_use": "Duality, appearance versus reality",
+      "failure_check": "Geometry/eyeline mismatch",
+      "method": "Capture+VFX",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F13",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Lens flare occlusion",
+      "mechanism": "Bright source veils frame at join",
+      "creative_use": "Energetic move into new space",
+      "failure_check": "Overexposure destroys detail",
+      "method": "Capture+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-F14",
+      "family": "F. In-camera and physically motivated transitions",
+      "name": "Practical shutter close/open",
+      "mechanism": "Use physical lid, iris, curtain or aperture-like closing action",
+      "creative_use": "Formal reset",
+      "failure_check": "Unexplained mechanic in scene",
+      "method": "Practical+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G01",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Light leak",
+      "mechanism": "Use real or designed leak to cross cut",
+      "creative_use": "Analog memory, musical energy",
+      "failure_check": "Overuse feels preset-heavy",
+      "method": "Practical+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G02",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Film burn",
+      "mechanism": "Let exposure-colored edge grow across frame",
+      "creative_use": "Material rupture or historical texture",
+      "failure_check": "Generic stock overlay",
+      "method": "Comp+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G03",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Flash frame",
+      "mechanism": "Brief controlled exposure event around edit",
+      "creative_use": "Impact or visual punctuation",
+      "failure_check": "Flashing safety and clipping",
+      "method": "NLE+QC",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G04",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Strobe bridge",
+      "mechanism": "Alternate lit frames to change space",
+      "creative_use": "Surreal dance or stage energy",
+      "failure_check": "Seizure risk; high restriction",
+      "method": "Lighting+QC",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G05",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Match flicker",
+      "mechanism": "Cut between two sources on coherent flicker phase",
+      "creative_use": "Unsettling rhythm",
+      "failure_check": "Random banding and flashes",
+      "method": "Lighting+QC",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G06",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Practical flare match",
+      "mechanism": "Match flaring fixtures across scenes",
+      "creative_use": "Connect different venues",
+      "failure_check": "Different lens flare geometries",
+      "method": "Capture+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G07",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Chroma wipe",
+      "mechanism": "Color field or gradient becomes matte",
+      "creative_use": "Graphic music-video section",
+      "failure_check": "Lurid edge artifacts",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G08",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Luma wipe",
+      "mechanism": "Reveal clip through ordered brightness regions",
+      "creative_use": "Natural light-based reveal",
+      "failure_check": "Keyed holes and crushed masks",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G09",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Exposure-rack transition",
+      "mechanism": "Overexpose and recover into another image",
+      "creative_use": "Subjective eye adjustment",
+      "failure_check": "Bad highlight rolloff",
+      "method": "Capture+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-G10",
+      "family": "G. Light, exposure and color transitions",
+      "name": "Color-field dip",
+      "mechanism": "Use exact environmental or design color to bridge",
+      "creative_use": "Album-identity punctuation",
+      "failure_check": "Disconnect from photographed texture",
+      "method": "NLE+Grade",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H01",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Alpha matte reveal",
+      "mechanism": "Use animated shape/transparency to reveal next plate",
+      "creative_use": "Controlled integration",
+      "failure_check": "Unnatural edge softness",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H02",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Rotoscope / actor wipe",
+      "mechanism": "Isolate actor crossing foreground as scene behind changes",
+      "creative_use": "Performance-led location switch",
+      "failure_check": "Hair/hand matte defects",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H03",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Depth-based wipe",
+      "mechanism": "Use depth estimates to reveal by distance",
+      "creative_use": "Spatial layer dislocation",
+      "failure_check": "Depth halo and geometry drift",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H04",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Object replacement bridge",
+      "mechanism": "One object turns into a related asset across a hidden cut",
+      "creative_use": "Story prop echo",
+      "failure_check": "Asset scale identity drift",
+      "method": "VFX",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H05",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Surface / texture swap",
+      "mechanism": "Replace a surface as it crosses frame",
+      "creative_use": "Uncanny material change",
+      "failure_check": "Texture swimming",
+      "method": "VFX",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H06",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Perspective portal",
+      "mechanism": "Move camera through a mapped aperture",
+      "creative_use": "Transition between architectural spaces",
+      "failure_check": "Incorrect lens and physical rules",
+      "method": "Blender+Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H07",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Camera projection reframe",
+      "mechanism": "Project still onto 3D cards to animate apparent space",
+      "creative_use": "Impossible but directed move",
+      "failure_check": "Card stretching and parallax artifacts",
+      "method": "Blender+Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H08",
+      "family": "H. Compositing and spatial VFX",
+      "name": "3D match-move bridge",
+      "mechanism": "Track camera across independent plate sets",
+      "creative_use": "Apparent continuous path",
+      "failure_check": "Solver drift, shadows and grain",
+      "method": "Blender+Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H09",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Split screen / panel shift",
+      "mechanism": "Show multiple angles or settings in one frame then let one dominate",
+      "creative_use": "Parallel worlds or performance counterpoint",
+      "failure_check": "Panel gimmick and clutter",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H10",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Motion-vector dissolve",
+      "mechanism": "Warp frame elements along estimated motion before blend",
+      "creative_use": "Fluid energy without hard cut",
+      "failure_check": "Facial folding and background warping",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H11",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Particle carrying wipe",
+      "mechanism": "Practical fog, dust or particles reveal next space",
+      "creative_use": "Environmental continuity",
+      "failure_check": "Particle source lacks physics",
+      "method": "VFX",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-H12",
+      "family": "H. Compositing and spatial VFX",
+      "name": "Liquid/refraction warp",
+      "mechanism": "Use fluid lensing as a scene bridge",
+      "creative_use": "Surreal perception or music peak",
+      "failure_check": "Rubber physics, plastic sheen",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I01",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Speed-ramp cut",
+      "mechanism": "Accelerate/decelerate around an edit",
+      "creative_use": "Momentum or anticipation",
+      "failure_check": "AI/interpolation artifacts",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I02",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Freeze-frame bridge",
+      "mechanism": "Hold an image then resume somewhere else",
+      "creative_use": "Subjective time and punctuated beat",
+      "failure_check": "Freeze looks accidental",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I03",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Frame-stutter cut",
+      "mechanism": "Repeat or skip frames at controlled moments",
+      "creative_use": "Anxiety or percussive accent",
+      "failure_check": "Flicker/stutter limits",
+      "method": "NLE+QC",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I04",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Step-printing",
+      "mechanism": "Duplicate or accumulate frames for smeared motion cadence",
+      "creative_use": "Dreamy analog motion trace",
+      "failure_check": "Uneven cadence not intentional",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I05",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Echo-trail transition",
+      "mechanism": "Layer earlier positions over moving body",
+      "creative_use": "Memory or musical gesture",
+      "failure_check": "Unwanted ghost limbs and doubled faces",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I06",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Reverse-motion join",
+      "mechanism": "Match forward action to reversed counterpart",
+      "creative_use": "Impossible chronology",
+      "failure_check": "Physics/easing mismatch",
+      "method": "NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I07",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Temporal echo overlap",
+      "mechanism": "Overlay offset moments from same shot",
+      "creative_use": "Hesitation or temporal compression",
+      "failure_check": "Ruin clear behavior read",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I08",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Timelapse-to-realtime cut",
+      "mechanism": "Jump from time-compressed environment to live action",
+      "creative_use": "Big temporal scale reveal",
+      "failure_check": "Light/weather continuity",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I09",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Hyperlapse travel bridge",
+      "mechanism": "Speed location traversal across cut",
+      "creative_use": "Journey compression",
+      "failure_check": "Motion sickness and location mismatch",
+      "method": "Capture+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I10",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Motion-retiming morph",
+      "mechanism": "Interpolate two movement patterns",
+      "creative_use": "Dance continuity or energy shift",
+      "failure_check": "Hand/face errors",
+      "method": "Comp",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-I11",
+      "family": "I. Time, speed and movement manipulation",
+      "name": "Loop point join",
+      "mechanism": "Match endpoint pose/framing to start",
+      "creative_use": "Cyclical music or story structure",
+      "failure_check": "Visible pop on repeated viewing",
+      "method": "Storyboard+NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-J01",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Film leader splice",
+      "mechanism": "Cut through count-in, burn or slate",
+      "creative_use": "Archival rupture and process awareness",
+      "failure_check": "Historical signifier unjustified",
+      "method": "Analog+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J02",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Gate weave transfer",
+      "mechanism": "Transfer image through misregistered film frame",
+      "creative_use": "Memory/unstable archive",
+      "failure_check": "Cheap plugin noise",
+      "method": "Analog+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J03",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Physical scratch wipe",
+      "mechanism": "Scratched emulsion line reveals next image",
+      "creative_use": "Violent tactile shift",
+      "failure_check": "Distracting repeated stock mark",
+      "method": "Analog+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J04",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Hand-painted frame bridge",
+      "mechanism": "Painting or dye forms successive transition frames",
+      "creative_use": "One-off signature expression",
+      "failure_check": "Masking footage meaning",
+      "method": "Analog+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J05",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Optical double exposure",
+      "mechanism": "Layer in-camera or print exposure passes",
+      "creative_use": "Competing realities and subjective vision",
+      "failure_check": "Ghost characters inadvertently",
+      "method": "Practical+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J06",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Prism in-camera split",
+      "mechanism": "Reflect/refract multiple slices of shot",
+      "creative_use": "Duplicity and perspective",
+      "failure_check": "Breaks identity geometry",
+      "method": "Practical",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J07",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Slit-scan bridge",
+      "mechanism": "Sample slit over time to turn image into stretched spatial pattern",
+      "creative_use": "Memory, time-space distortion",
+      "failure_check": "Hard to restore scene legibility",
+      "method": "VFX+R&D",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J08",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Pepper's Ghost reflection",
+      "mechanism": "Shoot reflected performer/elements practically",
+      "creative_use": "Apparition or double without CG",
+      "failure_check": "Mismatched lighting/contrast",
+      "method": "Practical",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J09",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Stop-motion object swap",
+      "mechanism": "Replace discrete physical object frame by frame",
+      "creative_use": "Playful or sinister transformation",
+      "failure_check": "Artifact spacing inconsistent",
+      "method": "Practical",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J10",
+      "family": "J. Analog, archival and material experiments",
+      "name": "Pixilation human motion",
+      "mechanism": "Animate live performers at single-frame intervals",
+      "creative_use": "Discontinuous bodily mechanics",
+      "failure_check": "Performance is inhuman without purpose",
+      "method": "Capture+NLE",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-J11",
+      "family": "J. Analog, archival and material experiments",
+      "name": "CRT camera feedback",
+      "mechanism": "Reshoot or feed video screen recursively",
+      "creative_use": "Media surveillance or layered time",
+      "failure_check": "Unsafe flashing and low-res mush",
+      "method": "Practical+QC",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K01",
+      "family": "K. Digital disruption and computational art",
+      "name": "Datamosh / codec P-frame smear",
+      "mechanism": "Carry interframe predictions across changed reference frame",
+      "creative_use": "Reality collapse or high-energy music",
+      "failure_check": "Uncontrolled faces and compression failure",
+      "method": "R&D+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K02",
+      "family": "K. Digital disruption and computational art",
+      "name": "Compression macroblock break",
+      "mechanism": "Let block artifacts form transition texture",
+      "creative_use": "Digital memory failure",
+      "failure_check": "Unreadable faces/details",
+      "method": "Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K03",
+      "family": "K. Digital disruption and computational art",
+      "name": "Digital RGB separation",
+      "mechanism": "Offset color channels for partial frame transition",
+      "creative_use": "Subjective disturbance",
+      "failure_check": "Generic glitch branding",
+      "method": "Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K04",
+      "family": "K. Digital disruption and computational art",
+      "name": "Scanline interference",
+      "mechanism": "Animated CRT-like scan signal masks image",
+      "creative_use": "Found media style",
+      "failure_check": "Flicker and pattern aliasing",
+      "method": "Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K05",
+      "family": "K. Digital disruption and computational art",
+      "name": "Pixel-sort wipe",
+      "mechanism": "Reorder pixels based on luminance/color rule",
+      "creative_use": "Surreal dissolving world",
+      "failure_check": "Destroys image evidence",
+      "method": "R&D+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K06",
+      "family": "K. Digital disruption and computational art",
+      "name": "Feedback recursion",
+      "mechanism": "Feed previous frames into current composite",
+      "creative_use": "Hypnotic visual memory",
+      "failure_check": "Unbounded visual noise",
+      "method": "R&D+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K07",
+      "family": "K. Digital disruption and computational art",
+      "name": "Fractal zoom bridge",
+      "mechanism": "Move recursively through a textured pattern",
+      "creative_use": "World-within-world concept",
+      "failure_check": "Looks artificial / stock fractal",
+      "method": "3D+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K08",
+      "family": "K. Digital disruption and computational art",
+      "name": "Point-cloud dissolve",
+      "mechanism": "Turn photographed space into sparse 3D points",
+      "creative_use": "Memory or digital reconstruction",
+      "failure_check": "Uncanny plastic texture",
+      "method": "3D+Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K09",
+      "family": "K. Digital disruption and computational art",
+      "name": "Volumetric scan morph",
+      "mechanism": "Transition between captures via volume representation",
+      "creative_use": "Bodily/spatial disassembly",
+      "failure_check": "Likeness control failure",
+      "method": "R&D+3D",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K10",
+      "family": "K. Digital disruption and computational art",
+      "name": "Data-bent image sequence",
+      "mechanism": "Intentionally corrupt local image bytes for stylized artifacts",
+      "creative_use": "Experimental media collapse",
+      "failure_check": "File instability; use copies only",
+      "method": "R&D",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-K11",
+      "family": "K. Digital disruption and computational art",
+      "name": "ASCII / typography transition",
+      "mechanism": "Replace tonality with letterforms then reveal",
+      "creative_use": "Language-image boundary",
+      "failure_check": "Illegible text, cliché",
+      "method": "Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-L01",
+      "family": "L. Music-driven editing and choreography",
+      "name": "On-beat cut",
+      "mechanism": "Hit a beat subdivision",
+      "creative_use": "Dance and chorus cadence",
+      "failure_check": "Predictable machine-gun rhythm",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L02",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Off-beat cut",
+      "mechanism": "Shift against expected pulse",
+      "creative_use": "Tension and human syncopation",
+      "failure_check": "Feels like bad timing if unsupported",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L03",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Bar-line scene change",
+      "mechanism": "Change scene on musical bar boundary",
+      "creative_use": "Song structure and reveal",
+      "failure_check": "Misses emotional peak",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L04",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Pre-chorus lift cut",
+      "mechanism": "Use changed visual grammar before chorus begins",
+      "creative_use": "Build anticipation",
+      "failure_check": "Premature payoff",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L05",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Break/drop vacuum cut",
+      "mechanism": "Go to empty visual or silence at drop",
+      "creative_use": "High-contrast impact",
+      "failure_check": "Overused drop cliché",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L06",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Lyric semantic match",
+      "mechanism": "Match pictured action/concept to lyric meaning",
+      "creative_use": "Layer visual storytelling",
+      "failure_check": "Overliteral illustration",
+      "method": "Script+Music",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L07",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Instrumental gesture match",
+      "mechanism": "Align action with drum, guitar or vocal articulation",
+      "creative_use": "Music as performance direction",
+      "failure_check": "Gesture looks choreographed mechanically",
+      "method": "Music+Performance",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L08",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Movement accent cut",
+      "mechanism": "Cut on a dancer's internal accent rather than kick drum",
+      "creative_use": "Body-led musicality",
+      "failure_check": "Cuts fight movement phrase",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L09",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Polyrhythmic cut pattern",
+      "mechanism": "Use alternating durations in a repeating rhythmic ratio",
+      "creative_use": "Complex groove and narrative dislocation",
+      "failure_check": "Needs deliberate musical map",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L10",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Call-and-response image alternation",
+      "mechanism": "Alternate visual subjects as musical motifs answer",
+      "creative_use": "Character or location dialogue",
+      "failure_check": "Random shot trading",
+      "method": "Music+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L11",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Stutter-phrase montage",
+      "mechanism": "Loop selected gesture in rhythmic variations",
+      "creative_use": "Hook emphasis or unease",
+      "failure_check": "Safety/cadence and identity artifacts",
+      "method": "Music+QC",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L12",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Visual ostinato",
+      "mechanism": "Repeat one framing/pattern against changing events",
+      "creative_use": "Conceptual refrain",
+      "failure_check": "Repetition feels budgetary",
+      "method": "Editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L13",
+      "family": "L. Music-driven editing and choreography",
+      "name": "Cross-verse world flip",
+      "mechanism": "Change set/color/lens grammar at verse boundary",
+      "creative_use": "Album identity and evolving character",
+      "failure_check": "Breaks established visual DNA",
+      "method": "Art+NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-L14",
+      "family": "L. Music-driven editing and choreography",
+      "name": "One-take section pivot",
+      "mechanism": "Pass without cut then reveal changed geography or look",
+      "creative_use": "Contrast with earlier cutting pattern",
+      "failure_check": "Unrehearsed turn feels stalled",
+      "method": "Capture+Previs",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-M01",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Kuleshov-style reaction juxtaposition",
+      "mechanism": "Alter context shot around identical neutral face",
+      "creative_use": "Perception and misreading",
+      "failure_check": "Implies emotions without performance support",
+      "method": "Editorial",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M02",
+      "family": "M. Surreal / experimental montage language",
+      "name": "False continuity cut",
+      "mechanism": "Preserve surface continuity while reality changes",
+      "creative_use": "Uncanny discontinuity",
+      "failure_check": "Can read like simple mistake",
+      "method": "Script+NLE",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M03",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Ontological cut",
+      "mechanism": "Cut to a world where basic scene rules have changed",
+      "creative_use": "Genre turning point",
+      "failure_check": "No character response to impossible change",
+      "method": "Storyboard+NLE",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M04",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Missing-beat cut",
+      "mechanism": "Omit expected consequence/action",
+      "creative_use": "Denial, shock or restraint",
+      "failure_check": "Looks like dropped footage",
+      "method": "Editorial",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M05",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Discontinuous viewpoint cut",
+      "mechanism": "Shift to an impossible perspective",
+      "creative_use": "Psychological or nonhuman POV",
+      "failure_check": "Spatial loss without payoff",
+      "method": "Storyboard+3D",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M06",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Semantic contradiction",
+      "mechanism": "Pair images that cannot both be true",
+      "creative_use": "Question unreliable framing",
+      "failure_check": "Evidence-puzzle cliché if unearned",
+      "method": "Script+NLE",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M07",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Hard texture collision",
+      "mechanism": "Jump between radically different material surfaces",
+      "creative_use": "Sensory or tonal fracture",
+      "failure_check": "Only decorative shock",
+      "method": "Art+NLE",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M08",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Subjective memory flare",
+      "mechanism": "Use out-of-focus, optical light, or overlay as perceptual state",
+      "creative_use": "Character interiority",
+      "failure_check": "Generic dream filter",
+      "method": "Practical+Grade",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M09",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Single-frame interruption",
+      "mechanism": "Insert one visual frame as formal rupture",
+      "creative_use": "Subliminal-feel marker without claim of subliminal influence",
+      "failure_check": "Flashing and legibility QC",
+      "method": "Editorial+QC",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M10",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Negative-space dissolve",
+      "mechanism": "Let foreground subject vanish into unoccupied composition",
+      "creative_use": "Absence and loss",
+      "failure_check": "Accidental ghosting",
+      "method": "Comp",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M11",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Anti-match cut",
+      "mechanism": "Deliberately contradict matched vector, shape or rhythm",
+      "creative_use": "Violence, fracture or reversal",
+      "failure_check": "Read as bad continuity",
+      "method": "Editorial",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-M12",
+      "family": "M. Surreal / experimental montage language",
+      "name": "Held absence cut",
+      "mechanism": "Stay on empty consequence rather than transition to next action",
+      "creative_use": "Emotional weight and observation",
+      "failure_check": "Dead pacing",
+      "method": "Editorial",
+      "tier": "T2"
+    },
+    {
+      "id": "TR-N01",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Endpoint-keyframe interpolation",
+      "mechanism": "Generate movement between approved start/end plate stills",
+      "creative_use": "Transition previs for similar views",
+      "failure_check": "Mismatched frames trigger unintended cut",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N02",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Video-to-video keyframe modify",
+      "mechanism": "Modify live-action movement using start/end steering",
+      "creative_use": "Practical-driven surreal passage",
+      "failure_check": "Facial geometry, hands and camera drift",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N03",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Multi-keyframe controlled scene bridge",
+      "mechanism": "Define several intermediate visual states for one passage",
+      "creative_use": "Multi-stage environment or prop change",
+      "failure_check": "Model changes story events",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N04",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Generated motion-bridge insert",
+      "mechanism": "Create ONLY a short connector where neither source can cover cut",
+      "creative_use": "Missing physical bridge",
+      "failure_check": "Artificial continuity and credits",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N05",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Character-reference preservation pass",
+      "mechanism": "Constrain a transformed shot to approved identity reference",
+      "creative_use": "Identity in controlled V2V",
+      "failure_check": "Reference control not a guarantee",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N06",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Outpaint-to-reframe bridge",
+      "mechanism": "Extend frame edges for changed crop across cut",
+      "creative_use": "Aspect-safe migration",
+      "failure_check": "Invented background elements",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N07",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Generated depth parallax",
+      "mechanism": "Infer layers to move between two still images",
+      "creative_use": "Previs for impossible camera path",
+      "failure_check": "Flat-card stretching and false geometry",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N08",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Neural morph / semantic dissolve",
+      "mechanism": "Synthesize in-between images with changing category",
+      "creative_use": "Explicit identity/world transformation only",
+      "failure_check": "Identity theft of scene / face drift",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N09",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "Neural optical-flow repair",
+      "mechanism": "Interpolate missing frames between close movement states",
+      "creative_use": "Repair tiny cadence gaps",
+      "failure_check": "Twisted anatomy and texture swimming",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-N10",
+      "family": "N. Generative / neural transitions (conditional)",
+      "name": "AI model-to-model bridge",
+      "mechanism": "Combine renders from separate engines via a stable intermediary plate",
+      "creative_use": "Toolchain handoff experiment",
+      "failure_check": "Color, faces and asset provenance drift",
+      "method": "AI sandbox",
+      "tier": "T3"
+    },
+    {
+      "id": "TR-O01",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Graphic-anchor match chain",
+      "mechanism": "3+ consecutive shots preserve one geometry, horizon, or silhouette as the repeated anchor",
+      "creative_use": "Design a visual motif that moves across places or eras",
+      "failure_check": "Local pairwise match succeeds but sequence lacks narrative development",
+      "method": "NLE + previsualization",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O02",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Action / gesture relay",
+      "mechanism": "One movement vector or gesture passes from shot to shot through different subjects",
+      "creative_use": "Compress dispersed actions into a meaningful common behavior",
+      "failure_check": "Velocity, screen direction, or intent resets unexpectedly",
+      "method": "Performance direction + NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O03",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Behavior / expression relay",
+      "mechanism": "A repeated posture, gaze, hand position, or reaction shifts among performers or moments",
+      "creative_use": "Link characters through behavior without asserting identical identity",
+      "failure_check": "Micro-expression or face identity drift; forced psychology",
+      "method": "Performance blocking + NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O04",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Camera-vector relay",
+      "mechanism": "Maintain camera trajectory, axis of motion, and focal center across successive shots",
+      "creative_use": "Suggest a single observation moving through distinct spaces",
+      "failure_check": "Parallax, lens perspective and acceleration inconsistent",
+      "method": "Previs + motion control / camera repeat",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O05",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Scale / perspective relay",
+      "mechanism": "Match position and size of a subject as actual objects change in scale or focal length",
+      "creative_use": "Travel from macro to environment while preserving eye trace",
+      "failure_check": "Lens distortion or optical size makes match obvious",
+      "method": "Storyboard + lens tests + NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O06",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Practical subject transformation chain",
+      "mechanism": "A recognizable object silhouette or function is relayed through multiple practical subjects",
+      "creative_use": "Evolve a motif without inventing a literal metamorphosis",
+      "failure_check": "VFX look, prop continuity, or unrelated substitutions",
+      "method": "Props + camera match + optional VFX",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O07",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Era / time-skip graphic chain",
+      "mechanism": "Repeat framing and action across differentiated times, costumes, sets, or locations",
+      "creative_use": "Compress years or cycles into a legible time progression",
+      "failure_check": "Era change indistinguishable; wardrobe and chronology errors",
+      "method": "Production design + NLE",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O08",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Rhythmic match run",
+      "mechanism": "Several matched cuts fall on chosen beats, syncopations, or repeated instrumental attacks",
+      "creative_use": "Give music a deliberate recurring visual grammar",
+      "failure_check": "Mechanical beat spam obscures phrasing and performance",
+      "method": "Music edit + frame timing",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O09",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Phrase-length counterpoint relay",
+      "mechanism": "Match shots at musical phrase boundaries while deliberately varying shot durations within phrases",
+      "creative_use": "Support long musical structure without every cut landing on a kick",
+      "failure_check": "Missed hook/lyric emphasis or rhythm feels arbitrary",
+      "method": "Music edit + performance map",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O10",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Sound-motif multi-shot relay",
+      "mechanism": "A related transient, sustained tone, breathing pattern, or timbre bridges successive places",
+      "creative_use": "Unify a dispersed montage through the sound design",
+      "failure_check": "Audio implies an unwanted event or creates spatial confusion",
+      "method": "Sound editorial + picture editorial",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O11",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Conceptual escalation chain",
+      "mechanism": "Each cut retains a perceivable anchor while the metaphor changes or intensifies",
+      "creative_use": "Build an argument or emotional progression across shots",
+      "failure_check": "A pretty sequence has no escalating information",
+      "method": "Storyboard + story edit",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O12",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Deliberate broken-match ending",
+      "mechanism": "Establish a predictable matching rule, then violate it once at the intended payoff",
+      "creative_use": "Represent fracture, refusal, reversal, or interruption",
+      "failure_check": "Failure reads accidental or upstages the moment",
+      "method": "Picture edit + sound punctuation",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O13",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Circular return / loop closure",
+      "mechanism": "Final shot matches opening shape, movement, or action for intentional recurrence",
+      "creative_use": "Music-video loops, motifs of cycles and repetition",
+      "failure_check": "Loop disguises a missing dramatic conclusion",
+      "method": "Storyboard + NLE",
+      "tier": "T0"
+    },
+    {
+      "id": "TR-O14",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Matched occlusion relay",
+      "mechanism": "Door frames, lens covers, bodies or architectural occluders carry a series between locations",
+      "creative_use": "Connect separate filmed environments with practical concealment",
+      "failure_check": "Unmotivated portals, bad matte edges, lighting mismatch",
+      "method": "In-camera + roto/VFX optional",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O15",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Parallel-chain interweave",
+      "mechanism": "Two distinct match sequences alternate without losing their own visual rules",
+      "creative_use": "Compare two journeys, characters, or rhythms while preserving separate identities",
+      "failure_check": "Visual anchors cross-contaminate; chronology misread",
+      "method": "Editorial + shot ledger",
+      "tier": "T1"
+    },
+    {
+      "id": "TR-O16",
+      "family": "O. Multi-shot match sequences (OVS composite grammar)",
+      "name": "Neural intermediate chain sandbox",
+      "mechanism": "Use AI only for limited, approved interstitial images between fixed genuine plates",
+      "creative_use": "R&D where practical match, blocking and compositing cannot deliver",
+      "failure_check": "Face, hands, accessories, lens, gravity, provenance or location drift",
+      "method": "AI test under human gate",
+      "tier": "T3"
+    }
+  ],
+  "addendum": "OVS-EDIT-TRANSITION-G01A / Multi-Shot Match Sequencing",
+  "naming_note": "O family contains OVS studio-defined composite workflow names, not standard industry labels."
+}
