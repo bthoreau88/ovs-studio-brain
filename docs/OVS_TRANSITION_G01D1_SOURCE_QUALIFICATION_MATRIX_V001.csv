@@ -1,0 +1,12 @@
+requirement_id,requirement,disposition,gate_rule
+S01,Current approved garage scene revision,HOLD,Founder and current script authority required
+S02,Original camera or approved source plates,HOLD,Exact read-only source mount and SHA256 required
+S03,Shot camera/timecode/lens/fps,HOLD,Map every selected cut edge to binary metadata
+S04,Face body wardrobe and props,HOLD,Approved current character and practical continuity required
+S05,Audio ambience stems dialogue rights,HOLD,Scene-specific sound and licensing required
+S06,Local SECOND HAND archive,TECHNICAL VERIFIED / SCENE UNQUALIFIED,Archive digest is not source-scene certification
+S07,Procedural control render,EXCLUDED,Non-canonical synthetic proxy only
+S08,Locked V002 teaser master,PROTECTED,No recut/creative changes authorized
+S09,G01C existing A B C samples,TECH PROOF ONLY,No current scene/canon authorization
+S10,Scene-level A B C edit,NOT RUN,Requires S01-S05 PASS
+S11,Human selection and continuity review,NOT RUN,Required before any film promotion
