@@ -1,0 +1,13 @@
+requirement_id,criterion,evidence_status,disposition
+M01,Physical disk and mounted logical volumes,Two internal NVMe disks only,VERIFIED
+M02,External X9 Pro or My Passport enumerated,No portable disk in present device inventory,HOLD
+M03,EFI and recovery partitions,Unlettered partitions identified and untouched,PRESERVED
+M04,Read only external filesystem mount,No external filesystem currently accessible,NOT RUN
+M05,Historical archive checksum,Independent rehash equals earlier private receipt,VERIFIED ARCHIVE ONLY
+M06,Media member content,27 rasters + 1 HEIC + 1 MP4 visually mapped,REFERENCE ONLY
+M07,Exact duplicate detection,Two identical still-image groups identified,METADATA PASS
+M08,Garage scene original plate identifiers,No current approved take mapping,HOLD
+M09,Current identity and cinematography approvals,No source-linked scene authority,HOLD
+M10,Scene sound and rights,No current garage audio/rights packet,HOLD
+M11,G01D.2 film edit,Not performed due blocking source/approval gates,NOT RUN
+M12,Canon promotion or paid generation,Not performed,PROTECTED
