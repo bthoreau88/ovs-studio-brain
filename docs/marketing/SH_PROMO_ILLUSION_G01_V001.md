@@ -112,7 +112,7 @@ Show at 9:16 phone size, muted, with two-eyed and one-eyed viewers. Ask number o
 
 ### 9. Delivery & controlled freeze
 
-The companion locally generated production book is titled `OVS_SECOND_HAND_THE_OTHER_ANGLE_G01_PRODUCTION_STANDARD_V001.pdf` (31 pages). It includes full-page reproductions of all ten uploaded sheets and the complete P01–P12 prompts. **PDF SHA-256: `ae31a0d81d34a4e502033bc2684b56287e0bbbe71438d7a3a20a8725bbd2c795`.**
+The companion locally generated production book is titled `OVS_SECOND_HAND_THE_OTHER_ANGLE_G01_PRODUCTION_STANDARD_V001.pdf` (31 pages). It includes full-page reproductions of all ten uploaded sheets and the complete P01–P12 prompts. **PDF SHA-256: `2394f856312a2a505154a3ad05c83c0b9aa5d0eb596ed84777a13888f7c4a934`.**
 
 The public repository may include this standards text and a hash registry. **DO NOT assert the binary PDF or images have been uploaded to GitHub unless a separate exact GitHub blob/path check confirms it.** Treat local PDF delivery and GitHub text governance as distinct deliverables. The full portrait-bearing PDF would become public if uploaded into the public repo.
 
