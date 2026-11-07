@@ -4,7 +4,7 @@
 **Source policy:** Immutable SHA-256 checks; replace only through new revision with review.  
 **Public repo note:** This registry lists hashes and source labels, not the actual source JPEG bytes.  
 **PDF artifact (local deliverable, not yet repository blob verified):** `OVS_SECOND_HAND_THE_OTHER_ANGLE_G01_PRODUCTION_STANDARD_V001.pdf`  
-**PDF SHA-256:** `ae31a0d81d34a4e502033bc2684b56287e0bbbe71438d7a3a20a8725bbd2c795`  
+**PDF SHA-256:** `2394f856312a2a505154a3ad05c83c0b9aa5d0eb596ed84777a13888f7c4a934`  
 **Appendix:** One full-page reproduced sheet per character in original upload order.
 
 | # | ID | Subject | Upload filename | SHA-256 |
