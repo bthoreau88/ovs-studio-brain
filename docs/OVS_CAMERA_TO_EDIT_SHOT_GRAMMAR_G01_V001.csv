@@ -1,0 +1,13 @@
+shot_id,shot_class,purpose,transition_constraint
+SG-01,Environmental establishing / extreme wide,Establish location and orientation,Confirm source scene geography
+SG-02,Spatial master / scene view,Show actor and prop placement,Maintain axis and stage geometry
+SG-03,Full figure / cowboy,Show gesture and silhouette,Check body and movement phase
+SG-04,Medium single,Carry action and dialogue,Match hand/action state
+SG-05,Tight single / close-up,Emotional microbehavior,Preserve approved face and eye trace
+SG-06,Extreme close-up,Focus on fine detail,Align geometry and optical properties
+SG-07,Insert / prop detail,Causal touch and evidence,No unapproved object change
+SG-08,Two-shot / relationship,Character spacing and blocking,No implied unauthorized double
+SG-09,Over-the-shoulder / dirty single,Relational viewpoint,Protect camera axis
+SG-10,Point of view / subjective,Perceptual knowledge,No new prophetic knowledge
+SG-11,High / low / overhead,Power and scale shift,Motivate perspective and preserve physics
+SG-12,Moving reveal / tracking,Vector and occlusion continuity,Align speed direction and parallax
