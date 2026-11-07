@@ -1,0 +1,13 @@
+id,criterion,required_evidence,current_status
+"S01","Approved current scene","current screenplay revision and beat authority","HOLD"
+"S02","Before/after context","adjacent shots and screen direction","HOLD"
+"S03","Mounted source","exact binary, hash and acquisition declaration","HOLD"
+"S04","Character identity","face/body/accessory authority and receipt","HOLD"
+"S05","Wardrobe/location","approved outfit/props/geometry/eyelines","HOLD"
+"S06","Camera metadata","source fps/timecode/lens and shutter","HOLD"
+"S07","Sound authority","dialogue/room tone/stems and rights","HOLD"
+"S08","Scene-safe A/B/C","equivalent story beats and EDL comparisons","NOT RUN"
+"S09","Identity/spatial/causal QC","OVS immersion-integrity findings and review notes","NOT RUN"
+"S10","Rights and flashing","release provenance / accessible safe playback","HOLD"
+"S11","Independent cold read","relative emotional benefit vs baseline","NOT RUN"
+"S12","Founder approval","exact scene/take and edit decision","NOT RUN"
