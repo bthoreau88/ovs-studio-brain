@@ -1,0 +1,220 @@
+{
+  "system": "OVS-PROD-EDIT-G01",
+  "version": "V001",
+  "date": "2026-11-08",
+  "status": "FOUNDER_APPROVED_LOCKED_METHOD",
+  "principles": [
+    "SOURCE_BEFORE_SURFACE",
+    "NATIVE_BEFORE_BAKE",
+    "ONE_AUTHORITY_PER_LAYER",
+    "MINIMAL_TOOL_RULE"
+  ],
+  "paid_generation_authorized": false,
+  "auto_canon_promotion": false,
+  "workflows": [
+    {
+      "id": "scene-builder",
+      "command": "/Scene-Builder",
+      "app": "Blender",
+      "primary_problem": "environment_blocking_camera_lighting_previs_3d_shot",
+      "native_authority": ".blend",
+      "setup": "/use-blender",
+      "editable": [
+        "collections",
+        "objects",
+        "transforms",
+        "cameras",
+        "lights",
+        "materials",
+        "modifiers",
+        "constraints",
+        "animation",
+        "simulation_setup"
+      ]
+    },
+    {
+      "id": "destruction-studio",
+      "command": "/Destruction-Studio",
+      "app": "Blender",
+      "primary_problem": "fracture_rigidbody_debris_destruction",
+      "native_authority": ".blend",
+      "setup": "/use-blender",
+      "editable": [
+        "fracture_setup",
+        "rigid_bodies",
+        "constraints",
+        "forces",
+        "caches",
+        "camera",
+        "lights"
+      ]
+    },
+    {
+      "id": "exploded-view",
+      "command": "/Exploded-view",
+      "app": "Blender",
+      "primary_problem": "technical_prop_product_separation",
+      "native_authority": ".blend",
+      "setup": "/use-blender",
+      "editable": [
+        "hierarchy",
+        "transforms",
+        "animation",
+        "labels_if_authorized",
+        "camera",
+        "materials"
+      ]
+    },
+    {
+      "id": "cartoon-shaders",
+      "command": "/Cartoon-shaders",
+      "app": "Blender",
+      "primary_problem": "approved_stylized_shader_rnd",
+      "native_authority": ".blend",
+      "setup": "/use-blender",
+      "editable": [
+        "shader_nodes",
+        "materials",
+        "lights",
+        "render_settings"
+      ]
+    },
+    {
+      "id": "project-sorter",
+      "command": "/Project-sorter",
+      "app": "Adobe Premiere Pro",
+      "primary_problem": "ingest_organization_proxy_editorial",
+      "native_authority": ".prproj",
+      "setup": "/use-premiere",
+      "editable": [
+        "bins",
+        "metadata",
+        "proxies",
+        "source_sequences",
+        "timelines",
+        "markers",
+        "audio_mapping"
+      ]
+    },
+    {
+      "id": "shot-composer",
+      "command": "/Shot-Composer",
+      "app": "Adobe After Effects",
+      "primary_problem": "layered_compositing_motion_graphics_tracking",
+      "native_authority": ".aep",
+      "setup": "/use-after-effects",
+      "editable": [
+        "layers",
+        "precomps",
+        "masks",
+        "mattes",
+        "trackers",
+        "expressions",
+        "cameras",
+        "lights",
+        "adjustments"
+      ]
+    },
+    {
+      "id": "shot-cleanup",
+      "command": "/Shot-Cleanup",
+      "app": "Adobe After Effects",
+      "primary_problem": "roto_paint_cleanup_tracked_patch",
+      "native_authority": ".aep",
+      "setup": "/use-after-effects",
+      "editable": [
+        "roto",
+        "paint",
+        "patches",
+        "trackers",
+        "masks",
+        "source_plate"
+      ]
+    },
+    {
+      "id": "vectorize",
+      "command": "/Vectorize",
+      "app": "Adobe Illustrator",
+      "primary_problem": "vector_logo_title_graphic_reconstruction",
+      "native_authority": ".ai",
+      "setup": "/use-illustrator",
+      "editable": [
+        "paths",
+        "compound_shapes",
+        "type",
+        "swatches",
+        "symbols",
+        "artboards"
+      ]
+    },
+    {
+      "id": "image-fixer",
+      "command": "/Image-fixer",
+      "app": "Adobe Photoshop",
+      "primary_problem": "still_repair_cleanup_layered_composite",
+      "native_authority": ".psd",
+      "setup": "/use-photoshop",
+      "editable": [
+        "layers",
+        "masks",
+        "adjustments",
+        "smart_objects",
+        "type",
+        "transforms"
+      ]
+    },
+    {
+      "id": "touchdesigner",
+      "command": "/use-touchdesigner",
+      "app": "TouchDesigner",
+      "primary_problem": "realtime_interactive_audio_reactive_live_visuals",
+      "native_authority": ".toe/.tox",
+      "setup": "inspect_available_workflow_instructions",
+      "editable": [
+        "TOP",
+        "CHOP",
+        "SOP",
+        "DAT",
+        "COMP",
+        "controls",
+        "external_io",
+        "timing"
+      ]
+    },
+    {
+      "id": "color-grading",
+      "command": "/color-grading",
+      "app": "DaVinci Resolve Studio",
+      "primary_problem": "conform_color_management_grade_finish_delivery",
+      "native_authority": ".drp/project_database",
+      "setup": "inspect_available_workflow_instructions",
+      "editable": [
+        "conform",
+        "color_management",
+        "nodes",
+        "groups",
+        "windows",
+        "tracking",
+        "keyframes",
+        "versions",
+        "stills",
+        "delivery_presets"
+      ]
+    }
+  ],
+  "authority_priority": [
+    "project_specific_canon",
+    "source_assets",
+    "OVS_identity_and_source_authority",
+    "specialist_system_authority",
+    "reference_assets_with_limited_scope",
+    "production_intent",
+    "output_contract"
+  ],
+  "specialist_contracts": {
+    "transitions": "OVS-EDIT-TRANSITION-G01 V003",
+    "lighting": "OVS-LIGHT-G01 V001",
+    "performance": "OVS-PERF-G01",
+    "identity": "OVS identity/source-authority pipeline"
+  }
+}
