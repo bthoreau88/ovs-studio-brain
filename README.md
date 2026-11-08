@@ -29,6 +29,19 @@ GitHub Pages publishes the repository root from `main`. Because the app uses has
 - Export Center for JSON and Markdown project handoff packages.
 - Settings page with supplied OVS logo assets and local backup/reset controls.
 
+## Versioned Production Standards
+
+This integration branch carries additive studio-method authorities without changing project canon or authorizing paid generation:
+
+- `docs/OVS_EDITABLE_PRODUCTION_PROJECT_STANDARD_G01_V001.md` — editable production routing, authority, native-file, handoff, QC, and archive standard.
+- `docs/OVS_EDITABLE_PRODUCTION_ROUTING_G01_V001.json` — machine-readable workflow router across Blender, Premiere Pro, After Effects, Illustrator, Photoshop, TouchDesigner, and DaVinci Resolve Studio.
+- `docs/OVS_EDITABLE_PROJECT_MANIFEST_G01_V001.json` — per-project authority/handoff/QC/archive template.
+- `docs/OVS_EDITABLE_PRODUCTION_INTAKE_G01_V001.md` — source/project-file intake and workflow-selection prompt.
+- `docs/OVS_TRANSITION_SYSTEM_G01_V003.md` — cinematic transition/edit grammar.
+- `docs/OVS_CINEMATIC_LIGHTING_SYSTEM_G01_V001.md` — cinematic lighting/relighting authority.
+
+Production-law summary: **SOURCE BEFORE SURFACE · NATIVE BEFORE BAKE · ONE AUTHORITY PER LAYER · MINIMAL TOOL RULE.**
+
 ## Visual Identity
 
 The active interface identity is documented in:
