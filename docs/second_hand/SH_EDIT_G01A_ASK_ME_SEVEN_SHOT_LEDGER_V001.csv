@@ -1,0 +1,8 @@
+shot_id,range_sec,lens_mm,setup,purpose,status
+S01,0-6,40,C1_master,establish_clerk_Beni_Thoreau_geography,PREVIS
+S02,6-11,65,C2_clerk_CU,attendant_question_and_eyeline,PREVIS
+S03,11-15,65,C3_Thoreau_CU,automatic_answer_starts,PREVIS
+S04,15-20,65,C4_Beni_CU,Beni_interrupts_and_reclaims_answer,PREVIS
+S05,20-26,65,C3_Thoreau_CU,held_unspoken_response,PREVIS
+S06,26-34,40,C5_counter_two_shot,deliberately_break_visual_pattern,PREVIS
+S07,34-40,50,C6_Beni_medium,answers_with_real_aftereffect,PREVIS
