@@ -7,7 +7,7 @@ import {
   uid
 } from "./data.js";
 import { downloadText, projectBundle, toMarkdown } from "./export.js";
-import { buildPrompt, promptTemplates } from "./prompts.js";
+import { buildPrompt, lightingLooks, promptTemplates } from "./prompts.js";
 import { searchStore } from "./search.js";
 import { deleteRecord, loadStore, resetStore, saveStore, upsertRecord } from "./storage.js";
 
@@ -463,6 +463,7 @@ function promptsPage() {
             <label class="field"><span>Project</span><select name="project_id">${projectOptions(firstProject)}</select></label>
             <label class="field"><span>Reference</span><select name="reference_id">${referenceOptions(firstReference, firstProject)}</select></label>
             <label class="field"><span>Template</span><select name="prompt_type">${promptTemplates.map((item) => `<option>${esc(item.name)}</option>`).join("")}</select></label>
+            <label class="field"><span>Lighting treatment (Relighting Prompt only)</span><select name="lighting_style">${lightingLooks.map((look) => `<option value="${esc(look.id)}">${esc(look.id)} · ${esc(look.name)}</option>`).join("")}</select></label>
             ${field("title", "Title", "")}
           </div>
           <button class="button primary" type="submit">Generate prompt</button>
@@ -705,7 +706,7 @@ function bindEvents() {
     const project = byId("projects", data.project_id) || store.projects[0];
     const reference = byId("references", data.reference_id) || store.references.find((item) => item.project_id === project?.id) || store.references[0];
     const character = store.characters.find((item) => item.project_id === project?.id) || store.characters[0] || {};
-    const promptText = buildPrompt(data.prompt_type, { project, reference, character });
+    const promptText = buildPrompt(data.prompt_type, { project, reference, character, lighting_style: data.lighting_style });
     const template = promptTemplates.find((item) => item.name === data.prompt_type);
     store = upsertRecord(store, "prompts", {
       ...emptyRecord.prompts,
