@@ -1,0 +1,14 @@
+requirement_id,requirement,required_receipt,status
+G01B-L01,Permitted location,Site agreement and dimension survey,HOLD
+G01B-P01,Beni performer,Cast permission and source ID,HOLD
+G01B-P02,Thoreau performer,Cast permission and source ID,HOLD
+G01B-P03,Attendant performer,Cast permission and source ID,HOLD
+G01B-S01,Current scene draft,Script placement and approved rehearsal wording,HOLD
+G01B-I01,Canonical source identity,Character identity and wardrobe pairing,HOLD
+G01B-C01,Camera source,Original source file IDs and SHA256,HOLD
+G01B-A01,Sound source,Production sync WAV and authentic room tone,HOLD
+G01B-E01,Source-verified edit A,Actual-source EDL and media output,NOT RUN
+G01B-E02,Source-verified edit B,Same-source EDL and media output,NOT RUN
+G01B-E03,Optional designed edit C,Real physical occlusion footage or NOT FEASIBLE,NOT RUN
+G01B-R01,Independent cold read,Human ratings and camera/audio continuity,NOT RUN
+G01B-R02,Founder selection,Specific exact file and scene verdict,NOT RUN
