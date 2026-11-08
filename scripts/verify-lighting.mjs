@@ -31,7 +31,7 @@ assert.ok(prompts.includes("INPUT A") && prompts.includes("INPUT B"));
 assert.ok(prompts.includes("original recorded audio"));
 assert.ok(app.includes('name="lighting_style"'));
 assert.ok(app.includes("lighting_style: data.lighting_style"));
-assert.ok(master.includes("MASTER") && master.includes("original recorded audio"));
+assert.ok(master.includes("MASTER") && master.includes("original audio"));
 assert.ok(authority.includes("SOURCE BEFORE STYLE"));
 assert.equal(registry.no_paid_generation_without_authorization, true);
 assert.equal(registry.shot_canon_auto_promote, false);
