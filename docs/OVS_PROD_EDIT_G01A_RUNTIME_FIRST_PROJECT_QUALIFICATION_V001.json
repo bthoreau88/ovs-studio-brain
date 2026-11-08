@@ -39,8 +39,15 @@
     "exact_source_located": false,
     "library_search_completed": true,
     "msi_bounded_search_completed": true,
-    "absence_claim": "NOT_ESTABLISHED",
-    "result": "HOLD"
+    "absence_claim": "NOT_ESTABLISHED_EXTERNAL_STORAGE_UNSEARCHED",
+    "result": "HOLD",
+    "mounted_volumes": [
+      "C: Windows NTFS",
+      "D: Data NTFS"
+    ],
+    "external_ovs_storage_mounted": false,
+    "d_drive_exact_name_search": "COMPLETED_NO_MATCH",
+    "c_user_profile_search": "BOUNDED_NO_MATCH"
   },
   "proxy_firewall": {
     "historical_proxy_material_found": true,
