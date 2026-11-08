@@ -1,0 +1,76 @@
+{
+  "schema": "OVS-SH-G01A-RIG-V001",
+  "modality": "deterministic zero-credit two-person geometry proxies",
+  "authoritative_for": "computer projection only; not characters, scene, narrative or perceptual response",
+  "camera": {
+    "model": "pinhole",
+    "camera_height_m": 1.55,
+    "lens_mm": 40,
+    "image_width_px": 1080,
+    "image_height_px": 1920,
+    "arri_open_gate_sensor_height_mm": 19.22,
+    "derived_9_16_crop_width_mm": 10.81125,
+    "focal_pixels_approx": 3995.84,
+    "orientation": "fixed",
+    "start_x_m": -0.2,
+    "end_x_m": 0.2
+  },
+  "objects": {
+    "front": {
+      "x_m": 0,
+      "z_m": 4.4,
+      "independent_actor": true
+    },
+    "rear": {
+      "x_m": 0.152,
+      "z_m": 7.3,
+      "independent_actor": true
+    }
+  },
+  "station_results": [
+    {
+      "dolly_cm": 0,
+      "near_head_center_x_px": 721.63,
+      "far_head_center_x_px": 732.68,
+      "separation_px": 11.05,
+      "far_head_visible_pct": 5.81
+    },
+    {
+      "dolly_cm": 10,
+      "near_head_center_x_px": 630.81,
+      "far_head_center_x_px": 677.94,
+      "separation_px": 47.12,
+      "far_head_visible_pct": 25.02
+    },
+    {
+      "dolly_cm": 20,
+      "near_head_center_x_px": 540,
+      "far_head_center_x_px": 623.2,
+      "separation_px": 83.2,
+      "far_head_visible_pct": 54.6
+    },
+    {
+      "dolly_cm": 30,
+      "near_head_center_x_px": 449.19,
+      "far_head_center_x_px": 568.46,
+      "separation_px": 119.28,
+      "far_head_visible_pct": 83.13
+    },
+    {
+      "dolly_cm": 40,
+      "near_head_center_x_px": 358.37,
+      "far_head_center_x_px": 513.73,
+      "separation_px": 155.35,
+      "far_head_visible_pct": 100
+    }
+  ],
+  "status": {
+    "technical": "PASS",
+    "human_cold_read": "HOLD",
+    "scene_source_match": "HOLD",
+    "identity_locks": "NO CHANGE",
+    "paid_generation": "NOT AUTHORIZED",
+    "video": "NOT AUTHORIZED",
+    "canon": "NO CHANGE"
+  }
+}
