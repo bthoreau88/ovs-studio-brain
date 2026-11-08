@@ -1,0 +1,66 @@
+{
+  "system": "OVS-PROD-EDIT-G01",
+  "template_version": "V001",
+  "project_id": "",
+  "scene_id": "",
+  "shot_id": "",
+  "goal": "",
+  "duration_seconds": null,
+  "fps": null,
+  "resolution": "",
+  "aspect_ratio": "",
+  "color_pipeline": "",
+  "audio_layout": "",
+  "output_contract": {
+    "review": "",
+    "master": "",
+    "native_editable_deliverables": [],
+    "archive": ""
+  },
+  "authorities": {
+    "source_A": [],
+    "reference_B": [],
+    "canon_C": [],
+    "production_intent_D": "",
+    "output_E": ""
+  },
+  "source_provenance": [],
+  "existing_project_files": [],
+  "selected_workflow": {
+    "primary": "",
+    "secondary": [],
+    "justification": ""
+  },
+  "tool_verification": [],
+  "allowed_changes_by_application": [],
+  "handoffs": [],
+  "source_control": {
+    "untouched_source_retained": false,
+    "hashes_recorded": false,
+    "no_op_ingest_verified": false
+  },
+  "qc": {
+    "first_frame": false,
+    "middle_frame": false,
+    "last_frame": false,
+    "motion_segments": false,
+    "identity": false,
+    "geometry": false,
+    "wardrobe_props": false,
+    "audio_sync_duration": false,
+    "grain_texture": false,
+    "color_management": false,
+    "alpha_interchange": false,
+    "photosensitivity_if_applicable": false
+  },
+  "paid_generation_authorized": false,
+  "founder_disposition": "CANDIDATE_ONLY",
+  "archive": {
+    "native_projects": [],
+    "dependencies": [],
+    "review_derivatives": [],
+    "master_derivatives": [],
+    "hashes": []
+  },
+  "notes": ""
+}
