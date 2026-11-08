@@ -1,0 +1,51 @@
+{
+  "system": "OVS-PROD-EDIT-G01A",
+  "version": "V001",
+  "date": "2026-11-08",
+  "disposition": "PARTIAL_PASS_HOLD",
+  "canon_effect": "NONE",
+  "paid_generation": false,
+  "project_mutation": false,
+  "candidate": {
+    "lane": "THOREAU_3D_LIKENESS_INTERACTIVE",
+    "intended_source": "1_8_2024.glb",
+    "workflow": "/Scene-Builder",
+    "application": "Blender",
+    "setup": "/use-blender",
+    "native_authority": ".blend"
+  },
+  "runtime": {
+    "device": "MSI",
+    "online": true,
+    "os": "Windows x64",
+    "blender_executable": "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+    "blender_version": "5.1.2",
+    "blender_installed": true,
+    "unrelated_blender_mcp_processes_observed": 2
+  },
+  "higgsfield_control": {
+    "required_tools": [
+      "bl_health",
+      "bl_get_scene_summary",
+      "bl_get_skill",
+      "bl_open_project",
+      "bl_save_project",
+      "bl_render"
+    ],
+    "exposed_in_current_conversation": false,
+    "result": "HOLD"
+  },
+  "source_qualification": {
+    "exact_source_located": false,
+    "library_search_completed": true,
+    "msi_bounded_search_completed": true,
+    "absence_claim": "NOT_ESTABLISHED",
+    "result": "HOLD"
+  },
+  "proxy_firewall": {
+    "historical_proxy_material_found": true,
+    "proxy_generated_in_gate": false,
+    "proxy_can_satisfy_real_source_proof": false
+  },
+  "next_gate": "OVS-PROD-EDIT-G01A.1 — Higgsfield Blender Control Bridge + Real Source Mount"
+}
