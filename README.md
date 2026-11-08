@@ -37,6 +37,7 @@ This integration branch carries additive studio-method authorities without chang
 - `docs/OVS_EDITABLE_PRODUCTION_ROUTING_G01_V001.json` — machine-readable workflow router across Blender, Premiere Pro, After Effects, Illustrator, Photoshop, TouchDesigner, and DaVinci Resolve Studio.
 - `docs/OVS_EDITABLE_PROJECT_MANIFEST_G01_V001.json` — per-project authority/handoff/QC/archive template.
 - `docs/OVS_EDITABLE_PRODUCTION_INTAKE_G01_V001.md` — source/project-file intake and workflow-selection prompt.
+- `docs/OVS_PROD_EDIT_G01A_RUNTIME_FIRST_PROJECT_QUALIFICATION_V001.md` — first real-project runtime/source qualification; current disposition PARTIAL PASS / HOLD.
 - `docs/OVS_TRANSITION_SYSTEM_G01_V003.md` — cinematic transition/edit grammar.
 - `docs/OVS_CINEMATIC_LIGHTING_SYSTEM_G01_V001.md` — cinematic lighting/relighting authority.
 
