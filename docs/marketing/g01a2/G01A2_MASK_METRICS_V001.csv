@@ -1,0 +1,6 @@
+camera_move_cm,camera_x_m,old_rear_full_visible_pct,repaired_rear_full_visible_pct,repaired_rear_head_visible_pct,head_center_separation_px,near_actor_x_m,far_actor_x_m
+0,-0.2,10.705,0.080,0.000,11.047,0.0,0.152
+10,-0.1,12.976,2.077,8.975,47.124,0.0,0.152
+20,0.0,16.916,7.013,29.781,83.201,0.0,0.152
+30,0.1,22.989,14.794,60.713,119.278,0.0,0.152
+40,0.2,34.218,28.225,89.110,155.355,0.0,0.152
