@@ -1,0 +1,29 @@
+{
+  "gate": "SH-PROMO-ILLUSION-G01A.3",
+  "version": "V001",
+  "date": "2026-11-09",
+  "source_gate": "SH-PROMO-ILLUSION-G01A.2 V001",
+  "study_stimuli": [
+    {
+      "role": "A",
+      "file": "REPAIRED_A_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "645ebc45456a5db925539650c0cebf30d4f29d9b68ec50214e350374fbf89fa4"
+    },
+    {
+      "role": "B",
+      "file": "REPAIRED_B_1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "sha256": "020d02acec3ae445476a0eb5c6d9fbea597e6c8e36cb338ec2902650dcb66b50"
+    }
+  ],
+  "verified_original_character_reference_sheet_count": 10,
+  "real_viewer_responses_observed": 0,
+  "source_room14_scene_frame": "NOT_REGISTERED",
+  "study": "HOLD",
+  "video": "STOP",
+  "film_canon": "UNCHANGED",
+  "public_repo_media": "NOT_UPLOADED"
+}
